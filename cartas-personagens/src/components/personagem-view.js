@@ -109,6 +109,7 @@ escutarEventoDuelo() {
 
         const resultadoDuelo = Personagem.verificarVencedor(this.personagensSelecionados[0], this.personagensSelecionados[1])
 
+        console.log("Resultado do duelo:", resultadoDuelo) 
         mostrarModal(resultadoDuelo)
 
         this.personagensSelecionados.splice(0, this.personagensSelecionados.length)
