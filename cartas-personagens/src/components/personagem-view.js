@@ -29,7 +29,7 @@ criaPersonagem = (personagem) => {
             <div class="combate"></div>
             <div class="level">
                 <button class="diminuir-level">-</button>
-                <p class="level-texto">Level ${personagem.tipo} </p>
+                <p class="level-texto">Level ${personagem.level} </p>
                 <button class="aumentar-level">+</button>
             </div>
         </div>
